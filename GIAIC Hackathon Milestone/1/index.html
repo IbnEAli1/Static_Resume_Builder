@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Interactive Resume</title>
+  </head>
+  <body>
+    <header id="header">
+      <h2> <marquee behavior="scroll" direction="Left">Static Interactive Resume Builder</h2> </marquee> 
+      <h1>Syed Abbas Ali Zaidi</h1>
+    </header>
+    <!-- nav bar -->
+    <nav>
+      <ul>
+        <li><a href="#summary">Summary</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#language">Language</a></li>
+        <li><a href="#interests">Interests</a></li>
+      </ul>
+    </nav>
+
+    <div class="resume-container">
+      <div class="left-section">
+        <img src="photo.jpeg" class="profile-picture" alt="Abbas Profile Picture" />
+        <section id="objective">
+          <h2>Objective</h2>
+          <p>Dynamic and results-driven professional seeking to leverage my extensive experience in sales, accounting, and management to contribute to a forward-thinking organization. Committed to continuous learning and applying my skills in Cloud Applied Generative AI Engineering and Python Web Development to drive innovation and achieve organizational goals.</p>
+        </section>
+      </div>
+<!-- Right Side -->
+      <div class="right-section">
+        <section id="summary">
+          <h2>Summary</h2>
+          <p>Goal-oriented professional with extensive experience in sales, accounting, and management. I have worked as a Business Sales Executive at Habib Bank Limited and as an Accountant at Matchless Marine Services. I hold a Master’s in Education and a Master’s in Economics and Finance. Recently certified in Cloud Applied Generative AI Engineering through the Governor of Sindh Pakistan's Generative AI Initiative, I am also advancing my skills in Python Web Development at Sylani Mass IT. Passionate about continuous learning and making impactful contributions.</p>
+        </section>
+
+        <!-- Toggle button and Skills section -->
+        <label for="toggle-skills" class="toggle-button">Click For See "Skills"</label>
+        <input type="checkbox" id="toggle-skills" hidden>
+
+        <section id="skills">
+          <h2>Skills</h2>
+          <table>
+            <tr>
+              <td>MS Office</td>
+              <td>Computerized Accounting</td>
+            </tr>
+            <tr>
+              <td>React.js</td>
+              <td>Next.js</td>
+            </tr>
+            <tr>
+              <td>Python</td>
+              <td>TypeScript</td>
+            </tr>
+            <tr>
+              <td>Tailwind CSS</td>
+              <td>JavaScript</td>
+            </tr>
+          </table>
+        </section>
+
+        <section id="experience">
+          <h2>Experience</h2>
+          <table>
+            <tr id="Experiance_Title">
+              <td>Designation </td>
+              <td>Organization</td>
+              <td>Working Period </td>
+            </tr>
+            <tr>
+              <td>Business Sales Executive </td>
+              <td>Habib Bank Limited</td>
+              <td>November 2022 to February 2024  </td>
+            </tr>
+            <tr>
+              <td>Junior Accountant  </td>
+              <td>Mehran Enterprises (PVT) Ltd</td>
+              <td>July 2015 to February 2018 </td>
+            </tr>
+            <tr>
+              <td>Accountant  </td>
+              <td>Matchless Marine Services (Pvt) Ltd.</td>
+              <td>March 2018 to December 2020 </td>
+            </tr>
+            <tr>
+              <td>Management Executive</td>
+              <td>Pakistan Motors Pvt. Ltd. (Authorized Dealer Of DENSO. Japan)</td>
+              <td>May 2013 to July 2015 </td>
+            </tr>
+            <tr>
+              <td> Computer Operator Trainee </td>
+              <td>IT 360o Solution</td>
+              <td>September 2012 To December 2012</td>
+            </tr>
+            <tr>
+              <td>Teacher</td>
+              <td>The NR School</td>
+              <td>April 2012 to March 2013 </td>
+            </tr>
+          </table>
+        </section>
+
+        <section id="education">
+          <h2>Education</h2>
+        <table>
+          <tr>
+            <td>Degree</td>
+            <td>School/Institute/University</td>
+            <td>Passing Year</td>
+            <td>Grade/Divion/CGPA</td>
+          </tr>
+          <tr>
+            <td>M.Edu</td>
+            <td>Federal Urdu University of Arts, Sciences & Technology</td>
+            <td>2020</td>
+            <td>3.58</td>
+          </tr>
+          <tr>
+            <td>Master of Economics & Finance</td>
+            <td>University Of Karachi</td>
+            <td>2018</td>
+            <td>2nd Divion</td>
+          </tr>
+          <tr>
+            <td>B.Edu</td>
+            <td>Virtual University</td>
+            <td>2016</td>
+            <td>2.88 CGPA</td>
+          </tr>
+          <tr>
+            <td>B.Com</td>
+            <td>University Of Karachi</td>
+            <td>2015</td>
+            <td>2nd Division</td>
+          </tr>
+          <tr>
+            <td>I.Com</td>
+            <td>Karachi Board</td>
+            <td>2009</td>
+            <td>B</td>
+          </tr>
+          <tr>
+            <td>Matric (Science)</td>
+            <td>Karachi Board</td>
+            <td>2007</td>
+            <td>B</td>
+          </tr>
+        </table>
+        </section>
+
+        <section id="language">
+          <h2>Languages</h2>
+          <ul>
+            <li>Urdu</li>
+            <li>English</li>
+            <li>Persion</li>
+          </ul>
+        </section>
+
+        <section id="interests">
+          <h2>Interests</h2>
+          <p>Reading, Technology, Travel</p>
+        </section>
+      </div>
+    </div>
+    <div id="footer">
+      <a href="#header"><button  id="topbutton" title="Go to top">Top</button></a>
+    
+     <hr>
+    <div>@StaticResume<br>by AkazBaba <a href="https://www.youtube.com/@akazbaba" class>
+      <img src="logo.jpg" alt="AkazBaba" width="4%">Click & Subscribe</a>
+    </div>
+    </div>
+  </body>
+</html>

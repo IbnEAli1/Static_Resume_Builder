@@ -1,0 +1,115 @@
+/* General Styles */
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #FFD4D4;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 0%;
+}
+
+header h1 {
+    font-size: 3rem;
+    color: #333;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color:#333;
+    }
+
+nav ul li {
+    margin: 10px 30px;
+}
+
+nav ul li a {
+    color: #f4f4f9;
+    text-decoration: none;
+}
+
+.resume-container {
+    display: flex;
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: hsl(247, 52%, 94%);
+}
+
+.left-section {
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+}
+
+.profile-picture {
+    border-radius: 50%;
+    width: 80%;
+}
+
+.right-section {
+    width: 70%;
+    padding: 10px;
+}
+
+h2 {
+    color: #333;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table td {
+    border: 1px solid #dddddda1;
+    padding: 8px;
+    text-align: center;
+    border-radius: 2px;
+}
+
+hr {
+    margin: 10px 0;
+    border: none;
+    border-top: 1px solid #ddd;
+}
+
+/* Toggle button and skills visibility */
+.toggle-button {
+    display: block;
+    cursor: pointer;
+    color: #007acc;
+    text-align: right;
+    padding: 5px;
+    font-size: 1rem;
+}
+
+#toggle-skills:checked ~ #skills {
+    display: none;
+}
+
+
+
+#footer {
+  text-align: center;
+  padding: 20px;
+}
+
+#footer a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#footer img {
+    vertical-align: middle;
+  }
